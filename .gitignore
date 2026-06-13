@@ -1,0 +1,9 @@
+*~
+*.swp
+*.swo
+
+.cache/
+.local/state/
+
+*.log
+*.pid
