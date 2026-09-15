@@ -37,18 +37,16 @@ blueman
 
 
 Installation
-~/.config/
-├── sway/
-│   └── config
-└── waybar/
-    ├── config
-    ├── style.css
-    ├── top/
-    │   ├── configtop
-    │   └── styletop.css
-    └── bottom/
-        ├── configbottom
-        └── stylebottom.css
+- `sway/config` → `~/.config/sway/config`
+- `waybar/config` → `~/.config/waybar/config`
+- `waybar/style.css` → `~/.config/waybar/style.css`
+- `waybar/top/configtop` → `~/.config/waybar/top/configtop`
+- `waybar/top/styletop.css` → `~/.config/waybar/top/styletop.css`
+- `waybar/bottom/configbottom` → `~/.config/waybar/bottom/configbottom`
+- `waybar/bottom/stylebottom.css` → `~/.config/waybar/bottom/stylebottom.css`
+- `scripts/kb-toggle` → `~/.local/bin/kb-toggle`
+- `scripts/rotate-toggle` → `~/.local/bin/rotate-toggle`
+- `scripts/brightness-cycle` → `~/.local/bin/brightness-cycle`
 
 ~/.local/bin/
 kb-toggle
