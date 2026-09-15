@@ -1,0 +1,85 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* BAR BACKGROUND */
+window#waybar {
+    background-color: rgba(30, 30, 30, 0.92);
+    color: #ffffff;
+}
+
+/* ensure clean horizontal alignment */
+#waybar {
+    min-height: 30px;
+}
+
+/* MODULE CONTAINERS */
+#modules-left,
+#modules-center,
+#modules-right {
+    padding: 0 4px;
+    margin: 0;
+}
+
+/* push actions to the right */
+#modules-right {
+    margin-left: 0;
+}
+
+/* WORKSPACES (compact pills) */
+#workspaces button {
+    font-size: 20px;
+    min-width: 26px;
+    min-height: 24px;
+    padding: 0 6px;
+    margin: 2px;
+    border-radius: 8px;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* workspace hover/focus feedback */
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#workspaces button.focused {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ACTION BUTTONS (right side icons) */
+#custom-launcher,
+#custom-close,
+#custom-keyboard,
+#custom-rotate,
+#custom-power {
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0 8px;
+    margin: 2px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+/* hover feedback for touch */
+#custom-launcher:hover,
+#custom-close:hover,
+#custom-keyboard:hover,
+#custom-power:hover {
+    background: rgba(255, 255, 255, 0.10);
+}
+
+/* ICON ALIGNMENT FIX */
+label {
+    margin: 0;
+    padding: 0;
+}
+
+/* subtle power emphasis (optional but useful) */
+#custom-power {
+    color: #ff5555;
+}

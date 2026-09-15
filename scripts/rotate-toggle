@@ -1,0 +1,9 @@
+#!/bin/sh
+
+CURRENT="$(swaymsg -t get_outputs | jq -r '.[] | select(.name=="DSI-1") | .transform')"
+
+if [ "$CURRENT" = "normal" ]; then
+    swaymsg output DSI-1 transform 90
+else
+    swaymsg output DSI-1 transform normal
+fi
