@@ -48,7 +48,3 @@ Installation
 - `scripts/rotate-toggle` → `~/.local/bin/rotate-toggle`
 - `scripts/brightness-cycle` → `~/.local/bin/brightness-cycle`
 
-~/.local/bin/
-kb-toggle
-rotate-toggle
-brightness-cycle
