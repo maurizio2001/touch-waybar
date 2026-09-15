@@ -35,6 +35,9 @@ foot
 bluetuith
 blueman
 
+Theme
+The interface uses a Gruvbox-inspired colour scheme with JetBrains Mono Nerd Font.
+
 
 Installation
 - `sway/config` → `~/.config/sway/config`
