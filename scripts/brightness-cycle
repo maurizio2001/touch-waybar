@@ -1,0 +1,20 @@
+#!/bin/sh
+
+levels="5 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 100"
+
+current=$(brightnessctl g)
+max=$(brightnessctl m)
+
+# convert current to percent
+percent=$(( current * 100 / max ))
+
+next=5
+
+for lvl in $levels; do
+    if [ "$percent" -lt "$lvl" ]; then
+        next=$lvl
+        break
+    fi
+done
+
+brightnessctl set "${next}%"

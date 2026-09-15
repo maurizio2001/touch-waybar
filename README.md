@@ -19,8 +19,21 @@ Designed to run on:
 Dependencies
 sway
 waybar
-wvkbd
+wvkbd-mobintl
 fuzzel
+brightnessctl
+swayidle
+swaynag
+pactl
+grim
+gtklock
+iwgtk
+fuzzel
+wlogout
+pavucontrol
+foot
+bluetuith
+blueman
 
 
 Installation
@@ -38,5 +51,6 @@ Installation
         └── stylebottom.css
 
 ~/.local/bin/
-├── kb-toggle
-└── rotate-toggle
+kb-toggle
+rotate-toggle
+brightness-cycle
