@@ -15,3 +15,28 @@ Designed to run on:
 - Lenovo Duet 3
 - Pocophone F1
 - Future Linux devices
+
+Dependencies
+sway
+waybar
+wvkbd
+fuzzel
+
+
+Installation
+~/.config/
+├── sway/
+│   └── config
+└── waybar/
+    ├── config
+    ├── style.css
+    ├── top/
+    │   ├── configtop
+    │   └── styletop.css
+    └── bottom/
+        ├── configbottom
+        └── stylebottom.css
+
+~/.local/bin/
+├── kb-toggle
+└── rotate-toggle
