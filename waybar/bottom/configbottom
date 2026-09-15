@@ -1,0 +1,57 @@
+// -*- mode: jsonc -*-
+{
+//    "layer": "top",
+    "position": "bottom",
+//    "width": 30,
+    "spacing": 10,
+
+    "modules-left": [
+	"sway/workspaces"
+    ],
+
+    "modules-right": [
+        "custom/launcher",
+        "custom/close",
+        "custom/keyboard",
+	"custom/rotate",
+	"custom/power"
+    ],
+
+
+    "custom/launcher": {
+        "format": "󰹯",
+        "on-click": "fuzzel"
+    },
+
+    "custom/close": {
+        "format": "󰅖",
+        "on-click": "swaymsg kill"
+    },
+
+    "custom/keyboard": {
+        "format": "⌨",
+        "on-click": "/home/maurizio/.local/bin/kb-toggle"
+    },
+
+    "custom/rotate": {
+        "format": "󰃨",
+	"on-click": "/home/maurizio/.local/bin/rotate-toggle"
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout"
+    },
+"sway/workspaces": {
+    "all-outputs": true,
+    "disable-scroll": true,
+    "format": "{name}",
+    "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+    }
+}
+}
